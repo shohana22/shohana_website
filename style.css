@@ -1,0 +1,200 @@
+body{
+    background-color: #212428;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Common css*/
+.threeD-btn{
+    background-color: #212c30;
+    padding: 15px 20px;
+    color: #ff014f; 
+    border: none;
+}
+
+.threeD-btn:hover{
+    background-color: black;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 4px 2px white;
+    border: none;
+}
+
+.text-red {
+    color: #ff014f !important; 
+}
+
+.what-i-do{
+    letter-spacing: 2px;
+}
+
+.text-red-middle {
+    color: #ff014f !important; 
+    display: flex;
+    justify-content: center;
+}
+
+.what-i-do-port{
+    display: flex;
+    justify-content: center;
+}
+
+.margin{
+    margin-top: 100px;
+    color: black;
+}
+/*Header css*/
+.hero-section{
+    padding: 100px 0px 0px;
+}
+
+.hero-subtitle{
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hero-title{
+    font-weight: 500;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.hero-red-text{
+    color: #ff014f; 
+}
+
+.animated{
+    font-weight: 500;
+    font-size: 40px;
+    font-weight: bold; 
+}
+
+.hero-text{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.hero-icon-section{
+    margin-top: 120px;
+}
+
+.hero-icon-section p{
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hero-icon-section a{
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding: 15px 20px;
+    color: white;
+    background-color: #212c30;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    border: none;
+}
+
+/*Feature-section*/
+
+.myCard-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+
+.features-section{
+    padding: 100px 0px 0px;
+    margin-top: 40px;
+}
+
+.my-card{
+    padding: 45px;
+    box-shadow: 10px 10px 10px #1c1e22, -10px -10px 19px #262a2e;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.my-card .fa-solid {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #ff014f;
+}
+
+.my-card .fa-arrow-right-long {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #ff014f;
+    transition: 0.3s;
+}
+
+.my-card:hover .fa-arrow-right-long{
+    font-size: 50px;
+}
+/*secend-features-section*/
+.secend-features-section{
+    margin-top: 50px;
+}
+.mypicture-text-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.my-card:hover{
+    padding: 35px 50px;
+    box-shadow: 10px 10px 10px #262a2e, -10px -10px 19px  #1c1e22;
+    border-radius: 30px;
+}
+
+.image{
+    color:#ff014f
+}
+
+.image-text p{
+    letter-spacing: 2px;
+    font: bold;  
+    color: white;
+}
+.image-text p:hover{
+    color: #ff014f;
+}
+/*Contect-section*/
+
+.contact-section{
+    margin-top: 50px;
+}
+
+.contact-info img{
+    border-radius: 10px;
+}
+
+.contact-info h2{
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 20PX;
+}
+
+.contact-info p{
+    color: #878e99;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.contact-info ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: #878e99;
+}
+
+.fa-mobile-screen .fa-envelope-open-text{
+    font-size: 30px;
+}
